@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://geniusworks.co.za/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.9.2" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
+<!-- generated-on="August 9, 2014 6:49 pm" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://geniusworks.co.za/</loc>
+		<lastmod>2013-10-10T08:47:07+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://geniusworks.co.za/contact-us/</loc>
+		<lastmod>2014-03-28T13:30:53+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/lead-with-imagination-programme/</loc>
+		<lastmod>2013-11-26T14:36:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/howgeniusworks/</loc>
+		<lastmod>2013-10-10T21:20:51+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/howgeniusworks/facilitating-strategy-and-group-dynamics/</loc>
+		<lastmod>2013-09-25T14:56:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/leadership-programmes/</loc>
+		<lastmod>2013-09-25T14:34:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/about-genius-works/the-genius-team/</loc>
+		<lastmod>2013-09-20T13:56:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/about-genius-works/</loc>
+		<lastmod>2013-09-20T11:33:16+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/oran-cohen/</loc>
+		<lastmod>2013-09-11T13:27:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/what-we-do/</loc>
+		<lastmod>2013-09-09T16:14:38+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/howgeniusworks/ideas-to-life/</loc>
+		<lastmod>2013-05-19T09:46:37+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/howgeniusworks/training/</loc>
+		<lastmod>2013-05-19T09:42:11+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/howgeniusworks/coachingandmentoring/</loc>
+		<lastmod>2013-05-19T09:34:26+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/howgeniusworks/consulting/</loc>
+		<lastmod>2013-05-19T09:30:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/claire-janisch/</loc>
+		<lastmod>2013-04-17T17:07:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/projects/</loc>
+		<lastmod>2013-01-30T09:14:16+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/about-genius-works/the-genius-approach/</loc>
+		<lastmod>2012-08-22T11:49:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 146: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://geniusworks.co.za/join-us-for-an-introduction-to-systems-thinking/</loc>
+		<lastmod>2012-08-21T09:39:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/blog/</loc>
+		<lastmod>2012-08-18T11:00:26+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://geniusworks.co.za/sample-page/</loc>
+		<lastmod>2012-08-11T13:10:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

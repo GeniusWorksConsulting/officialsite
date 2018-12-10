@@ -1,0 +1,103 @@
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_create_access_plans
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_del_deprecated_options
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_migrate_account_field_options
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_migrate_coupon_data
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_migrate_course_postmeta
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_migrate_lesson_postmeta
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_migrate_order_data
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_migrate_email_postmeta
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_update_orders
+08-14-2018 @ 19:30:06 - Queuing 3.0.0 - llms_update_300_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.0.3 - llms_update_303_update_students_role
+08-14-2018 @ 19:30:06 - Queuing 3.0.3 - llms_update_303_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.4.3 - llms_update_343_update_relationships
+08-14-2018 @ 19:30:06 - Queuing 3.4.3 - llms_update_343_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.6.0 - llms_update_360_set_product_visibility
+08-14-2018 @ 19:30:06 - Queuing 3.6.0 - llms_update_360_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.8.0 - llms_update_380_set_access_plan_visibility
+08-14-2018 @ 19:30:06 - Queuing 3.8.0 - llms_update_380_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.12.0 - llms_update_3120_update_order_end_dates
+08-14-2018 @ 19:30:06 - Queuing 3.12.0 - llms_update_3120_update_integration_options
+08-14-2018 @ 19:30:06 - Queuing 3.12.0 - llms_update_3120_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.13.0 - llms_update_3130_create_default_instructors
+08-14-2018 @ 19:30:06 - Queuing 3.13.0 - llms_update_3130_builder_notice
+08-14-2018 @ 19:30:06 - Queuing 3.13.0 - llms_update_3130_update_db_version
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_update_quiz_settings
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_lesson_to_quiz_relationships_migration
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_attempt_migration
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_ensure_no_dupe_question_rels
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_ensure_no_lesson_dupe_rels
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_update_question_data
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_update_attempt_question_data
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_update_quiz_to_lesson_rels
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_builder_notice
+08-14-2018 @ 19:30:06 - Queuing 3.16.0 - llms_update_3160_update_db_version
+08-14-2018 @ 19:30:10 - Running llms_update_300_create_access_plans callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_create_access_plans callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_del_deprecated_options callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_del_deprecated_options callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_migrate_account_field_options callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_migrate_account_field_options callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_migrate_coupon_data callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_migrate_coupon_data callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_migrate_course_postmeta callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_migrate_course_postmeta callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_migrate_lesson_postmeta callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_migrate_lesson_postmeta callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_migrate_order_data callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_migrate_order_data callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_migrate_email_postmeta callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_migrate_email_postmeta callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_update_orders callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_update_orders callback
+08-14-2018 @ 19:30:10 - Running llms_update_300_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_300_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_303_update_students_role callback
+08-14-2018 @ 19:30:10 - Finished llms_update_303_update_students_role callback
+08-14-2018 @ 19:30:10 - Running llms_update_303_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_303_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_343_update_relationships callback
+08-14-2018 @ 19:30:10 - Finished llms_update_343_update_relationships callback
+08-14-2018 @ 19:30:10 - Running llms_update_343_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_343_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_360_set_product_visibility callback
+08-14-2018 @ 19:30:10 - Finished llms_update_360_set_product_visibility callback
+08-14-2018 @ 19:30:10 - Running llms_update_360_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_360_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_380_set_access_plan_visibility callback
+08-14-2018 @ 19:30:10 - Finished llms_update_380_set_access_plan_visibility callback
+08-14-2018 @ 19:30:10 - Running llms_update_380_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_380_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_3120_update_order_end_dates callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3120_update_order_end_dates callback
+08-14-2018 @ 19:30:10 - Running llms_update_3120_update_integration_options callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3120_update_integration_options callback
+08-14-2018 @ 19:30:10 - Running llms_update_3120_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3120_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_3130_create_default_instructors callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3130_create_default_instructors callback
+08-14-2018 @ 19:30:10 - Running llms_update_3130_builder_notice callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3130_builder_notice callback
+08-14-2018 @ 19:30:10 - Running llms_update_3130_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3130_update_db_version callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_update_quiz_settings callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_update_quiz_settings callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_lesson_to_quiz_relationships_migration callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_lesson_to_quiz_relationships_migration callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_attempt_migration callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_attempt_migration callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_ensure_no_dupe_question_rels callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_ensure_no_dupe_question_rels callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_ensure_no_lesson_dupe_rels callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_ensure_no_lesson_dupe_rels callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_update_question_data callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_update_question_data callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_update_attempt_question_data callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_update_attempt_question_data callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_update_quiz_to_lesson_rels callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_update_quiz_to_lesson_rels callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_builder_notice callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_builder_notice callback
+08-14-2018 @ 19:30:10 - Running llms_update_3160_update_db_version callback
+08-14-2018 @ 19:30:10 - Finished llms_update_3160_update_db_version callback
+08-14-2018 @ 19:30:10 - Update complete

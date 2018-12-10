@@ -1,0 +1,16 @@
+[28-Aug-2015 14:13:36 Europe/Moscow] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/geniuswo/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[28-Aug-2015 14:13:36 Europe/Moscow] PHP Fatal error:  Call to undefined function add_action() in /home/geniuswo/public_html/wp-includes/general-template.php on line 1760
+[28-Aug-2015 14:13:36 Europe/Moscow] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/geniuswo/public_html/wp-includes/ms-settings.php on line 14
+[28-Aug-2015 14:13:36 Europe/Moscow] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/geniuswo/public_html/wp-includes/ms-settings.php on line 14
+[28-Aug-2015 14:13:36 Europe/Moscow] PHP Fatal error:  Class 'IXR_Server' not found in /home/geniuswo/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[28-Aug-2015 14:13:37 Europe/Moscow] PHP Fatal error:  Call to undefined function feed_content_type() in /home/geniuswo/public_html/wp-includes/feed-rdf.php on line 8
+[28-Aug-2015 14:13:37 Europe/Moscow] PHP Fatal error:  Call to undefined function feed_content_type() in /home/geniuswo/public_html/wp-includes/feed-rss2-comments.php on line 8
+[28-Aug-2015 14:13:38 Europe/Moscow] PHP Fatal error:  Call to undefined function is_main_site() in /home/geniuswo/public_html/wp-includes/update.php on line 667
+[28-Aug-2015 14:13:38 Europe/Moscow] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/geniuswo/public_html/wp-includes/rss-functions.php on line 8
+[28-Aug-2015 14:13:38 Europe/Moscow] PHP Fatal error:  Class 'WP_Widget' not found in /home/geniuswo/public_html/wp-includes/default-widgets.php on line 14
+[28-Aug-2015 14:18:47 Europe/Moscow] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/geniuswo/public_html/wp-includes/rss.php on line 19
+[28-Aug-2015 14:32:31 Europe/Moscow] PHP Fatal error:  Call to undefined function add_action() in /home/geniuswo/public_html/wp-includes/ms-default-constants.php on line 153
+[12-Dec-2015 00:55:09 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/geniuswo/public_html/wp-includes/rss-functions.php on line 8
+[12-Dec-2015 00:55:59 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/geniuswo/public_html/wp-includes/rss-functions.php on line 8
+[28-Dec-2016 00:23:24 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/geniuswo/public_html/wp-includes/registration-functions.php on line 7
+[28-Dec-2016 00:23:24 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/geniuswo/public_html/wp-includes/registration-functions.php on line 7

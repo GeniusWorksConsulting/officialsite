@@ -1,0 +1,4 @@
+[26-Apr-2016 12:52:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/geniuswo/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[29-Jun-2016 10:14:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/geniuswo/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[12-Oct-2017 12:59:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/geniuswo/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[02-May-2018 01:13:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/geniuswo/public_html/wp-content/themes/twentythirteen/404.php on line 10

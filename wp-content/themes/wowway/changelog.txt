@@ -1,0 +1,74 @@
+*** WowWay Changelog ***
+
+9 August 2012 - Version 1.5.1
+
+	* Fixed memory bug when selecting a new category while a project is opened
+	* Fixed portfolio pagination for small screens
+
+1 August 2012 - Version 1.5
+
+	* Added self hosted videos support for projects
+	* Added a paginated portfolio page template(which also gives you the possibility to use multiple categories on a project)
+	* Fixed the project window closing - when you click any category, the project/gallery will close, and i've also added "modal" feature for the project window
+	* Fixed iPhone "forever closed" menu isssue
+	* Fixed Safari "never opening" projects
+	* Other small bugs were "smashed" in the process of this update :)
+
+28 June 2012 - Version 1.3
+
+	* Added a new page template - Fullscreen Video
+	* Added another widget area, at the bottom of the sidebar
+	* Added submenu pages(not filters) to mobile navigation menu
+	* Added portfolio/gallery filters to admin panel
+	* Fixed sharing issues
+	* Fixed other minor bugs
+
+11 June 2012 - Version 1.2.1
+
+	* Fixed some minor bugs
+
+9 June 2012 - Version 1.2
+
+	* Made the phone widget number callable
+	* Added basic touch & swipe functionalities for touchscreen devices
+	* Added scrollbar support for project pages
+	* Added 8 more social icons
+	* Added password protected projects
+	* Added scroll top top functionality after filtering projects
+	* Added scroll back to viewed items after closing project window
+	* Added the ability to have sharing options in the projects page
+
+29 May 2012 - Version 1.1.5
+
+	* Made a layered PNG file for the sprites
+	* Fixed menu category filtering
+	* Fixed the 'jump to top' feature when opening projects on a mobile device
+	* Worked on some other small bugs
+
+26 May 2012 - Version 1.1.3
+
+	* Fixed menu backgrounds bug
+	* Changed position of custom css
+	* Disabled backgrounds options for portfolio & gallery pages
+
+23 May 2012 - Version 1.1
+	
+	* Social media links open now in a new tab
+	* Back to top link(on mobile devices) fixed B
+	* Fixed favicon and initial # issue
+	* Added the ability to disable sidebar autohide
+	* Added the option to center the posts & pages
+	* Added the option to fit all portrait images from the fullscreen slideshows
+	* Added the ability to link directly to portfolio categories
+	* Added a custom.css in which you can add custom css rules, that will not be overwritten by future updates
+	* Created a new twitter widget that you can put in the footer
+	* Created a new page template featuring a fullscreen slideshow
+	* Created a new blog layout template, featuring full width posts & thumbs
+
+19 May 2012 - Version 1.0.1
+	
+	* Fixed double portfolio issue
+
+18 May 2012 - Version 1.0
+	
+	* First Release

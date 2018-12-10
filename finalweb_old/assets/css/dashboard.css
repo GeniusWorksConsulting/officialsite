@@ -1,0 +1,661 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 17, 2018, 10:42:22 AM
+    Author     : Stepup Technosys
+*/
+.dashboard-main .current-boxs {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.dashboard-main .current-boxs h4 {
+    position: absolute;
+    left: -54px;
+    top: 53px;
+    transform: rotate(-90deg);
+    background-color: #84b1cc;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 135px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.dashboard-main .current-boxs .current-box {
+    float: left;
+    width: 31.2%;
+    background-color: #e2eaf1;
+    margin: 0 4px;
+}
+
+.dashboard-main .current-boxs .current-box:nth-child(2) {
+    margin-left: 32px;
+}
+
+.dashboard-main .current-boxs .current-box .icon-love,
+.dashboard-main .current-boxs .current-box .icon-cred,
+.dashboard-main .current-boxs .current-box .icon-mucle {
+    float: left;
+    width: 50%;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.dashboard-main .current-boxs .current-box .icon-love {
+    background: url(../images/images/icon-love.png) center 0 no-repeat;
+}
+
+.dashboard-main .current-boxs .current-box .icon-cred {
+    background: url(../images/images/icon-cred.png) center 0 no-repeat;
+}
+
+.dashboard-main .current-boxs .current-box .icon-mucle {
+    background: url(../images/images/icon-mucle.png) center 0 no-repeat;
+}
+
+.dashboard-main .current-boxs .current-box h6 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #84B0CC;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.dashboard-main .current-boxs .current-box.active .icon-love,
+.dashboard-main .current-boxs .current-box.active .icon-cred,
+.dashboard-main .current-boxs .current-box.active .icon-mucle {
+    opacity: 1;
+}
+
+.dashboard-main .current-boxs .current-box.active h6 {
+    color: #000;
+}
+
+.dashboard-main .current-boxs .current-box h6 span {
+    display: block;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.dashboard-main .current-boxs .weeks {
+    float: left;
+    width: auto;
+    margin: 0 0 0 34px;
+    font-size: 9px;
+    color: #000;
+    padding: 10px 0px;
+}
+
+.dashboard-main .current-boxs .weeks img {
+    margin-right: 10px;
+}
+
+.dashboard-main .current-boxs .weeks span {
+    font-weight: 600;
+}
+
+
+/* starter */
+
+.dashboard-main .starter-list {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dashboard-main .starter-list:before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    bottom: 5px;
+    background: url(../images/men.png) 0 0 no-repeat;
+    width: 33px;
+    height: 53px;
+    z-index: 3;
+}
+
+.dashboard-main .starter-list ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+}
+
+.dashboard-main .starter-list ul:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    right: 3px;
+    background-color: #ef4146;
+    height: 18px;
+}
+
+.dashboard-main .starter-list ul li {
+    float: left;
+    width: 130px;
+    margin: 0px 13px 0 0;
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.dashboard-main .starter-list ul li a {
+    display: block;
+    background-color: #4a7799;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+}
+
+.dashboard-main .starter-list ul li:nth-child(2) a {
+    background-color: #445874;
+}
+
+.dashboard-main .starter-list ul li:nth-child(3) a {
+    background-color: #48c1c1;
+}
+
+.dashboard-main .starter-list ul li:nth-child(4) a {
+    background-color: #806cb0;
+}
+
+.dashboard-main .starter-list ul li:nth-child(5) a {
+    background-color: #faa541;
+}
+
+.dashboard-main .starter-list ul li:nth-child(6) a {
+    background-color: #f26a6a;
+}
+
+.dashboard-main .starter-list ul li:last-child {
+    margin: 0px;
+}
+
+
+/* weekly */
+
+.dashboard-main .weekly-box {
+    display: block;
+    margin: 0 0 20px;
+    float: left;
+    width: 100%;
+}
+
+.dashboard-main .weekly-box h4 {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 15px;
+}
+
+.dashboard-main .weekly-box .progress-box {
+    float: left;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.dashboard-main .weekly-box .progress-box img {
+    display: inline-block;
+    max-width: 80%;
+}
+
+.dashboard-main .weekly-box .progress-box .squad-box {
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.dashboard-main .weekly-box .progress-box .squad-box span {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    margin: 0 0 15px;
+}
+
+.dashboard-main .weekly-box .progress-box .squad-box img {
+    display: inline-block;
+}
+
+.dashboard-main .performers-boxs {
+    float: left;
+    width: 100%;
+    margin: 0 0 5px;
+}
+
+.dashboard-main .performers-boxs h4 {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 5px;
+}
+
+.dashboard-main .performers-boxs .performers-box {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(90, 84, 85, 0.1);
+    margin: 0 0 5px 0;
+}
+
+.dashboard-main .performers-boxs .performers-box .img {
+    float: left;
+    width: auto;
+    margin-right: 5px;
+}
+
+.dashboard-main .performers-boxs .performers-box .gold {
+    float: left;
+    width: auto;
+    margin-right: 5px;
+}
+
+.dashboard-main .performers-boxs .performers-box span {
+    float: left;
+    width: auto;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.dashboard-main .performers-boxs .performers-box span.sqauds-text {
+    width: 60%;
+    text-align: center;
+}
+
+.dashboard-main .performers-boxs .performers-box span.icon {
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 1px 0;
+    line-height: 18px;
+    margin: 2px 5px 0px 5px;
+}
+
+.dashboard-main .performers-boxs .performers-box span.icon img {
+    display: inline-block;
+}
+
+.dashboard-main .says-box {
+    background-color: rgba(234, 188, 128, 0.3);
+    margin: 5px 0 0 0;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.dashboard-main .says-box:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(234, 188, 128, 0.5);
+    height: 18px;
+}
+
+.dashboard-main .says-box .img {
+    float: left;
+    width: auto;
+    margin-left: 5px;
+    margin-top: -5px;
+    position: relative;
+}
+
+.dashboard-main .says-box h5 {
+    padding: 0 0 0 55px;
+    font-size: 12px;
+    color: #000;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.dashboard-main .says-box p {
+    padding: 10px 15px 20px 55px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+}
+
+.dashboard-main .garf-img {
+    margin: 10px 0 0 0;
+    display: block;
+    width: 100%;
+}
+
+.dashboard-main .squadsession-boxs {
+    float: left;
+    width: 100%;
+    margin: 0 0 5px;
+}
+
+.dashboard-main .squadsession-boxs h4 {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 5px;
+}
+
+.dashboard-main .squadsession-boxs .squadsession-box {
+    float: left;
+    width: 100%;
+    background-color: rgba(71, 193, 193, 0.2);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.dashboard-main .squadsession-boxs .squadsession-box .top {
+    float: left;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(71, 193, 193, 0.3);
+}
+
+.dashboard-main .squadsession-boxs .squadsession-box .top h5 {
+    float: left;
+    width: auto;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0px !important;
+        /*line-height: 18px;*/
+}
+
+.dashboard-main .squadsession-boxs .squadsession-box .top .start {
+    float: right;
+    width: auto;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 30px;
+}
+
+.dashboard-main .squadsession-boxs .squadsession-box .top .img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.dashboard-main .squadsession-boxs .squadsession-box .content {
+    padding: 10px;
+    font-size: 12px;
+    float: left;
+    width: 80%;
+}
+
+.dashboard-main .squadsession-boxs .additem {
+    float: left;
+    width: 100%;
+}
+
+.dashboard-main .squadsession-boxs .additem a {
+    display: block;
+    font-size: 12px;
+    color: #8D8487;
+}
+
+.dashboard-main .buckets-boxs {
+    float: left;
+    width: 100%;
+}
+
+.dashboard-main .buckets-boxs h4 {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.dashboard-main .buckets-boxs .buckets-box {
+    float: left;
+    width: 100%;
+    background-color: rgba(90, 84, 85, 0.1);
+}
+
+.dashboard-main .buckets-boxs .buckets-box .itmes-box {
+    float: left;
+    width: 19%;
+    margin: -15px 5px 0;
+    text-align: center;
+}
+
+.dashboard-main .buckets-boxs .buckets-box .itmes-box img {
+    display: inline-block;
+}
+
+.dashboard-main .buckets-boxs .buckets-box .itmes-box span {
+    float: left;
+    width: 100%;
+    font-size: 8px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+.dashboard-main .buckets-boxs .other-box {
+    float: left;
+    width: 100%;
+    background-color: rgba(170, 167, 167, 0.7);
+    padding: 0 10px;
+    margin: 0 0 10px;
+}
+
+.dashboard-main .buckets-boxs .other-box p {
+    float: left;
+    width: auto;
+    line-height: 10px;
+    font-size: 5px;
+    margin: 0px;
+}
+
+.dashboard-main .buckets-boxs .other-box a {
+    float: right;
+    width: auto;
+    line-height: 10px;
+    font-size: 5px;
+    color: #fff;
+}
+
+.dashboard-main .eacteach-boxs {
+    float: left;
+    width: 100%;
+}
+
+.dashboard-main .eacteach-boxs h3 {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.dashboard-main .eacteach-boxs h4 {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.dashboard-main .eacteach-boxs h5 {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #000;
+    margin: 0 0 5px 0;
+    font-weight: 500;
+}
+
+.dashboard-main .eacteach-boxs .eacteach-box {
+    float: left;
+    width: 100%;
+    background-color: #dfeed4;
+    margin: 0 0 10px 0;
+}
+
+.dashboard-main .eacteach-boxs .eacteach-box h6 {
+    float: left;
+    width: 100%;
+    background-color: #bcdda6;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.dashboard-main .eacteach-boxs .eacteach-box p {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.dashboard-main .eacteach-boxs .eacteach-box .name-text {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.dashboard-main .eacteach-boxs .eacteach-box .name-text .name {
+    color: #6fcac7;
+    font-size: 8px;
+}
+
+.dashboard-main .whatneed-main {
+    float: left;
+    width: 100%;
+    border-left: solid 1px #000;
+}
+
+.dashboard-main .whatneed-main h3 {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    background-color: #e6e7e8;
+    padding: 10px;
+    margin: 0 0 25px;
+}
+
+.dashboard-main .whatneed-main h3 span {
+    float: right;
+    width: auto;
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.dashboard-main .whatneed-main .whatneed-box {
+    float: left;
+    width: 100%;
+    min-height: 90px;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .top {
+    float: left;
+    width: 100%;
+    margin-left: -25px;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .top h4 {
+    float: left;
+    width: 50%;
+    background-color: #595355;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 25px;
+    padding-left: 35px;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .top img {
+    float: left;
+    width: auto;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .top span {
+    float: left;
+    width: auto;
+    font-size: 11px;
+    color: #4585c6;
+    padding: 0 10px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .content {
+    float: left;
+    width: 100%;
+    padding: 15px 35px 15px 15px;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .content h5 {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #f15c4f;
+    font-weight: 700;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .content p {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #000;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .content p.red {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    background-color: #f15c4f;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .content p.red-ligt {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    background-color: #f8aa97;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+
+.dashboard-main .whatneed-main .whatneed-box .content p.red-ligt strong {
+    color: #fff;
+}
+
+/*show more show less*/
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}

@@ -1,0 +1,120 @@
+*** WP e-Commerce Grid View Changelog ***
+
+= 1.2.0 - 2017/06/15 =
+* Tweak - Tested for compatibility with WordPress major version 4.8.0
+* Tweak - Tested for compatibility with WPEC major version 3.12.2
+* Tweak - WordPress Translation activation. Add text domain declaration in file header
+* Tweak - Update a3 Revolution to a3rev Software on plugins description
+* Tweak - Added Settings link to plugins description on plugins menu
+* Tweak - Updated plugins Description on wordpress.org with End of Development and Maintenance notice
+* Tweak - Removed tracking code from plugin
+* Tweak - Removed auto upgrading code from plugin
+* Tweak - Remove confirm license key form at first activate the plugin
+* Blog Notice - Read full details about the future of this plugin here https://a3rev.com/end-of-wp-e-commerce-development
+
+= 1.1.5 - 2016/04/22 =
+* Tweak - Tested for full compatibility with WP-eCommerce Version 3.11.2
+* Tweak - Tested for full compatibility with WordPress major version 4.5.0
+
+= 1.1.4 - 2015/09/08 =
+* Tweak - Tested for full compatibility with WP-eCommerce Version 3.10.1
+* Fix - Delete check new version transient when transient_timeout is deleted by WordPress 4.3 get_transients function so call to a3api for new version still works.
+
+= 1.1.3 - 2015/08/25 =
+* Tweak - Tested for full compatibility with WordPress major version 4.3.0
+* Tweak - Tested for full compatibility with WP-eCommerce major version 3.9.5
+* Fix - Change timeout of call to a3API for updates from 45 seconds to 8 seconds to resolve the server PHP timeout 30 seconds default. Server timeout before call finish was causing the 24 hour cron call not to be set and causing the dashboard to load slowly if a3API is not reachable.
+* Fix - Set 24 hours cron before call to a3API so that if have fail to connection then it will call in 24 hours on Cron instead of continue call each time Dashboard is loaded
+* Fix - validate the response from called to resolve PHP notice 'Undefined offset: 1'
+
+= 1.1.2 - 2015/06/29 =
+* Tweak - Automatic delete the house keeping option of Lite version when upgrading from Lite to Pro version. Prevents data from being deleted on upgrade if the Lite Version Clean Up On Deletion option is was left switched ON before deactivating it to install the Pro version.
+* Tweak - Tested for full compatibility with WP e-Commerce version 3.9.4
+* Fix - Added fallback cron job schedule to fix License Key deactivation bug that occurs when call to server returns null for server name when checking key status for auto Maintenance and Feature upgrades
+
+= 1.1.1 - 2015/05/30 =
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.2
+
+= 1.1.0 - 2015/04/24 =
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.0
+* Tweak - Tested and Tweaked for full compatibility with WP e-Commerce Version 3.9.3
+* Tweak - Changed WP_CONTENT_DIR to WP_PLUGIN_DIR. When admin sets a custom WordPress file structure then it can get the correct path of plugin
+* Fix - Show the new plugin version on the Core Update page. Feature stopped working with WordPress version 4.1
+
+= 1.0.9.5 - 2014/11/13 =
+* Fix - a3rev License code now recognises domain with and without the www. We believe that this will solve Licenses auto deactivating on some sites.
+
+= 1.0.9.4 - 2014/09/09 =
+* Tweak - Tested 100% compatible with WP e-Commerce 3.8.14.3
+* Tweak - Tested 100% compatible with WordPress Version 4.0
+
+= 1.0.9.3 - 2014/06/17 =
+* Tweak - Convert Lifetime License to single site purchase with add sites at discount feature.
+* Tweak - Tested 100% compatible with WordPress Version 3.9.1
+* Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14.1
+
+= 1.0.9.2 - 2014/05/08 =
+* Feature - WPEC categories shortcode Grid View. Add script and style support for when categories are added by shortcode
+* Tweak - Update grid view style with wpec-grid-sizer and grid_view_clearboth classes
+* Tweak - Append <div class="wpec-grid-sizer"></div> into grid categories container. For improved fluid grid display. 
+* Tweak - Use .grid_view_clearboth class to make auto column width for grid products container.
+* Tweak - Tested 100% compatible with WordPress Version 3.9.0
+* Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.14
+
+= 1.0.9.1 - 2013/12/24 =
+* Tweak - Tested 100% compatible with WordPress Version 3.8.0
+* Tweak - Tested 100% compatible with WP e-Commerce Version 3.8.13
+* Tweak - Ran WP_DEBUG All Uncaught exceptions errors and warnings fixed.
+* Fix - Update make_compatibility function with  isset( $args->slug ) and isset( $args['body']['request'] ) so that our plugin can work together with other developers plugin (eg Backupbuddy) that adds filter on the WordPress plugins_api (bad thing to do)
+
+= 1.0.9 - 2013/08/22 =
+* Feature - Added new @media beak points for a superior Grid View display in mobile phone and tablet when viewing in portrait or landscape.
+
+= 1.0.8 - 2013/08/21 =
+* Fix - Grid View Responsive style not rendering true in IE8 on some themes. 
+* Fix - Changed add_action( 'wp_head', array to add_action( 'get_header', array
+* Fix - Moved respond-ie.js script so that it loads from the header instead of the footer
+
+= 1.0.7 - 2013/08/16 =
+* Fix - Change empty result by array classes in browser_body_class() function to solve the problem Warning: join() [function.join]: Invalid arguments passed in /home/xxxx/public_html/xxxx/wp-includes/post-template.php on line 394
+* Credit - Thanks to Ulf Westman for reporting the bug and the site and server access to find and fix.
+
+= 1.0.6 - 2013/08/13 =
+* Feature - Now applies Grid View layout of theme to Category image that show above products on category pages.
+* Tweak - Optimized for responsive Grid View display in all legacy browsers including IE7 to IE10
+* Tweak - Optimized for responsive Grid View display in iOS and Android platforms â€“ Tablets and Mobiles.   
+* Tweak - Tested for full compatibility with WordPress v3.6.0
+* Tweak - Added PHP Public Static to functions in Class. Done so that PHP Public Static warnings don't show in DE_BUG mode.
+* Fix - Responsive Layout breaking when grids are irregular tall dimensions. Complete rework of the code and built in and optimized jQuery Masonry cascading grid layout. 
+* Fix - Masonry style and script only added on main Product page and Product Category pages when grid view is activated.
+  
+= 1.0.5 - 2013/06/11 =
+* Feature - Added auto support for Responsive Grid View templates in Responsive themes using @media inquiries lib. This is an automatic feature - there are no settings for it.
+* Tweak - Updated plugins support link to the plugins a3rev support forum.
+
+= 1.0.4 - 2013/04/22 =
+* Tweak - Added when install and activate plugin link redirects to License Key activation pop-up. Once validated redirects to the Store > Presentation options page where the WP e-Commerce Grid View settings are instead of the wp-plugins dashboard which has caused confusion as users do not realize that WP Grid View has no settings.
+* Tweak - Tested all plugin code 100% compatible with new WP e-Commerce version 3.8.10
+* Tweak - Updated some 404 links from plugins readme and dashboard.
+* Fix - Bug for users who have https: (SSL) on their sites wp-admin but have http on sites front end. This was causing the activation pop-up to show a -1 error because wp-admin with SSL applied only allows https:, but the url of admin-ajax.php is http: and it is denied hence returning the ajax -1 error. Fixed by writing a filter to recognize when https is configured on wp-admin and parsing correctly. If you do not have this configuration nothing changes for you, if you do have https on your wp-admin (or install it in the future) and http on the front end then Predictive Search now automatically detects that and works as it should.
+
+= 1.0.3 - 2012/12/31 =
+* Tweak - Updated plugin API to allow Pro Version License holders to manage their Licenses from the all new "My Account" dashboard on a3rev. Includes the option to see which domains each plugin is installed and activated on and the ability to deactivate the plugin on any domain from the 'My Account' > Manage Licenses dashboard.
+
+= 1.0.2 - 2012/11/29 =
+* Tweak - Change Pro Version plugin API call from cURL to now use WordPress auto update wp_remote_request function. This is to fix Pro License user who do not have cURL activated on their host not being able to install and activate the plugin.
+* Tweak - Built new Amazon EC2 plugin API to increase connection and download speed as well as reliability and uptime - plugin from this version calls to the new API.
+* Tweak - Now supports WPMU - Pro Version Single License now works on any domain or sub domain that the Plugin is installed on with the WPMU environment. Note it only works on 1. WPMU license option coming soon.
+* Fix - Fixed conflict with WordPress Domain Mapping plugin - thanks to Johannes for access to his WPMU install to find and fix this issue.
+* Fix - Change Pro Version plugin API call so that it only calls from the WP-Plugins page and not from every admin page.
+* Fix - Changed Pro Version plugin API call so that if it calls once to the API and it does not connect it auto aborts instead of keeping on trying to call.
+
+= 1.0.1 - 2012/08/23 =
+* Feature - Pro version now supports scaling Category thumbnail images
+* Feature - Created plugin documentation on the a3rev wiki. Includes detailed tutorial on configuring WP e-Commerce grid view settings.
+* Tweak - Added Plugin description Documentation | Support links and updated description
+* Tweak - Updated wordpress.org description with more plugin information.
+* Tweak - Created Github repository and commit Pro Version files. 
+
+= 1.0 - 2012/07/23 =
+* Initial release.

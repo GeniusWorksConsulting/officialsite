@@ -1,0 +1,15 @@
+/*
+Theme Name: Instyle
+Theme URI: http://www.turkhitbox.com
+Description: <strong>A Premium theme for designers, developers, art galleries and more! WordPress Theme by <a href="http://www.themeforest.net/user/turkhitbox">turkhitbox</a></strong> – Update notifications available on twitter and Themeforest <a href="http://twitter.com/anteksiler">Follow me on twitter</a> – <a href="http://themeforest.net/user/turkhitbox">Follow me on Themeforest</a>
+Version: 1.0
+Author: turkhitbox
+Author URI: http://www.turkhitbox.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Import */
+@import "css/reset.css";
+@import "css/style.css";
+@import "css/prettyPhoto.css";

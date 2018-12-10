@@ -1,0 +1,105 @@
+[25-Nov-2017 17:28:22 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_available_coins_by_userid() in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 157
+[25-Nov-2017 17:34:14 UTC] PHP Fatal error:  Call to undefined function getcategoryfromid() in /home/axikadhameliya30/public_html/oran/application/controllers/Admin.php on line 84
+[25-Nov-2017 17:59:49 UTC] PHP Fatal error:  Call to undefined function getcategoryfromid() in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 85
+[26-Nov-2017 02:09:35 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_available_coins_by_userid() in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 162
+[26-Nov-2017 04:57:27 UTC] PHP Fatal error:  Call to undefined method Page_model::changepassword() in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 199
+[26-Nov-2017 07:47:06 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/axikadhameliya30/public_html/oran/application/views/user/addrating.php on line 32
+[26-Nov-2017 07:47:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/axikadhameliya30/public_html/oran/application/views/user/addrating.php on line 32
+[27-Nov-2017 13:55:25 UTC] PHP Parse error:  syntax error, unexpected '+=' (T_PLUS_EQUAL), expecting variable (T_VARIABLE) or '$' in /home/axikadhameliya30/public_html/oran/application/views/user/addrating.php on line 96
+[27-Nov-2017 16:51:34 UTC] PHP Fatal error:  Function name must be a string in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 238
+[27-Nov-2017 16:51:47 UTC] PHP Fatal error:  Function name must be a string in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 242
+[27-Nov-2017 16:51:50 UTC] PHP Fatal error:  Function name must be a string in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 242
+[27-Nov-2017 17:19:20 UTC] PHP Fatal error:  Call to undefined method Admin_model::check_week_entry() in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 250
+[27-Nov-2017 17:38:45 UTC] PHP Fatal error:  Cannot redeclare Admin_model::check_week_entry() in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 101
+[28-Nov-2017 04:57:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/axikadhameliya30/public_html/oran/application/views/admin/addquestions.php on line 14
+[28-Nov-2017 05:17:06 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting identifier (T_STRING) in /home/axikadhameliya30/public_html/oran/application/views/admin/addquestions.php on line 50
+[28-Nov-2017 05:53:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 287
+[28-Nov-2017 06:11:10 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 140
+[28-Nov-2017 07:25:39 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/axikadhameliya30/public_html/oran/application/views/user/addrating.php on line 144
+[28-Nov-2017 08:01:24 UTC] PHP Fatal error:  Call to undefined method Admin_model::getratingpercentage() in /home/axikadhameliya30/public_html/oran/application/controllers/Pages.php on line 355
+[28-Nov-2017 08:38:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/axikadhameliya30/public_html/oran/application/views/user/addrating.php on line 314
+[28-Nov-2017 09:05:37 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 149
+[28-Nov-2017 09:57:22 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';' in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 293
+[28-Nov-2017 10:02:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 274
+[28-Nov-2017 10:21:39 UTC] PHP Fatal error:  Call to undefined function mytribeforoneweek() in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 167
+[28-Nov-2017 10:23:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/axikadhameliya30/public_html/oran/application/models/Admin_model.php on line 167
+[29-Nov-2017 21:07:10 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:07:20 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:07:26 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:07:54 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:07:57 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:08:04 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:09:05 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:09:07 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:09:10 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:09:53 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:10:07 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:10:09 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[29-Nov-2017 21:10:12 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/oran/application/views/user/dashboard.php on line 285
+[30-Nov-2017 06:21:21 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 399
+[30-Nov-2017 06:21:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 397
+[30-Nov-2017 06:44:15 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 225
+[30-Nov-2017 06:56:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/axikadhameliya30/public_html/gwstarter/application/views/user/addrating.php on line 225
+[02-Dec-2017 14:07:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/axikadhameliya30/public_html/gwstarter/application/views/admin/dashboard.php on line 41
+[02-Dec-2017 14:16:13 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 118
+[02-Dec-2017 14:46:34 UTC] PHP Fatal error:  First array member is not a valid class name or object in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 605
+[02-Dec-2017 14:46:55 UTC] PHP Fatal error:  First array member is not a valid class name or object in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 605
+[02-Dec-2017 14:47:20 UTC] PHP Fatal error:  Function name must be a string in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 605
+[02-Dec-2017 14:47:46 UTC] PHP Fatal error:  Function name must be a string in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 605
+[02-Dec-2017 15:03:22 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Qamember.php on line 171
+[02-Dec-2017 17:20:38 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/axikadhameliya30/public_html/gwstarter/system/database/DB_driver.php on line 1969
+[02-Dec-2017 17:21:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/axikadhameliya30/public_html/gwstarter/system/database/DB_driver.php on line 1969
+[02-Dec-2017 17:27:51 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/axikadhameliya30/public_html/gwstarter/system/database/DB_driver.php on line 1969
+[02-Dec-2017 17:32:02 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/axikadhameliya30/public_html/gwstarter/system/database/DB_driver.php on line 1969
+[02-Dec-2017 17:34:39 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/axikadhameliya30/public_html/gwstarter/system/database/DB_driver.php on line 1969
+[02-Dec-2017 17:35:41 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130968 bytes) in /home/axikadhameliya30/public_html/gwstarter/system/database/DB_driver.php on line 1969
+[02-Dec-2017 17:41:40 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 210
+[02-Dec-2017 17:42:24 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 210
+[02-Dec-2017 17:42:54 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 210
+[02-Dec-2017 17:43:56 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 210
+[02-Dec-2017 17:44:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 211
+[02-Dec-2017 17:44:48 UTC] PHP Fatal error:  Unsupported operand types in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 211
+[02-Dec-2017 18:03:36 UTC] PHP Parse error:  syntax error, unexpected '$j' (T_VARIABLE) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 200
+[03-Dec-2017 05:38:18 UTC] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 595
+[03-Dec-2017 05:38:54 UTC] PHP Parse error:  syntax error, unexpected '$groupmember' (T_VARIABLE) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 595
+[03-Dec-2017 06:30:53 UTC] PHP Parse error:  syntax error, unexpected 'sizeof' (T_STRING), expecting ',' or ';' in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 608
+[03-Dec-2017 07:01:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 567
+[03-Dec-2017 08:24:53 UTC] PHP Parse error:  syntax error, unexpected '$percent' (T_VARIABLE) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 592
+[03-Dec-2017 08:25:12 UTC] PHP Fatal error:  Cannot access empty property in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 591
+[03-Dec-2017 08:52:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 173
+[03-Dec-2017 08:59:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 173
+[03-Dec-2017 09:02:20 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 175
+[03-Dec-2017 09:03:08 UTC] PHP Parse error:  syntax error, unexpected '$mygroup' (T_VARIABLE) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 170
+[04-Dec-2017 05:51:20 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/axikadhameliya30/public_html/gwstarter/application/views/qamember/dashboard.php on line 76
+[04-Dec-2017 05:51:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/axikadhameliya30/public_html/gwstarter/application/views/qamember/dashboard.php on line 104
+[07-Dec-2017 11:57:13 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 464
+[30-Dec-2017 05:21:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 263
+[30-Dec-2017 05:21:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 263
+[30-Dec-2017 05:21:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 263
+[02-Jan-2018 05:12:19 UTC] PHP Fatal error:  Call to a member function weeklyentry() on null in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Qamember.php on line 74
+[02-Jan-2018 05:19:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/axikadhameliya30/public_html/gwstarter/application/models/Page_model.php on line 104
+[02-Jan-2018 05:24:26 UTC] PHP Fatal error:  Call to undefined method Page_model::load_model() in /home/axikadhameliya30/public_html/gwstarter/application/models/Page_model.php on line 102
+[02-Jan-2018 11:51:18 UTC] PHP Fatal error:  Call to a member function weeklyentry() on null in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 78
+[02-Jan-2018 11:52:10 UTC] PHP Fatal error:  Call to a member function weeklyentry() on null in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 78
+[28-Jan-2018 10:57:20 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 363
+[28-Jan-2018 11:31:17 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 309
+[28-Jan-2018 11:38:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/axikadhameliya30/public_html/gwstarter/application/views/user/dashboard.php on line 26
+[30-Jan-2018 13:46:04 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/axikadhameliya30/public_html/gwstarter/application/views/qamember/viewprevious.php on line 31
+[30-Jan-2018 14:06:06 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::order() in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 129
+[30-Jan-2018 15:13:00 UTC] PHP Fatal error:  Call to undefined method Pages::checkloginadmin() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 535
+[30-Jan-2018 15:53:19 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_paused_account() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 400
+[30-Jan-2018 16:02:05 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/axikadhameliya30/public_html/gwstarter/application/models/Admin_model.php on line 1184
+[25-Feb-2018 05:39:30 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 43
+[25-Feb-2018 05:40:43 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 43
+[25-Feb-2018 05:45:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 601
+[25-Feb-2018 05:45:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 601
+[25-Feb-2018 05:45:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 601
+[25-Feb-2018 05:48:54 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 89
+[25-Feb-2018 07:12:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Admin.php on line 511
+[08-Apr-2018 06:58:52 UTC] PHP Fatal error:  Call to undefined method Admin_model::update_data() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 667
+[08-Apr-2018 07:17:18 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 43
+[08-Apr-2018 07:17:25 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/axikadhameliya30/public_html/gwstarter/application/controllers/Pages.php on line 43
+[24-Apr-2018 12:49:41 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/geniuswo/public_html/absa/engageapp/application/controllers/Pages.php on line 43
+[24-Apr-2018 12:49:41 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/geniuswo/public_html/absa/engageapp/application/controllers/Pages.php on line 43
+[24-Apr-2018 13:00:15 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/geniuswo/public_html/absa/engageapp/application/controllers/Pages.php on line 43
+[24-Apr-2018 13:11:30 UTC] PHP Fatal error:  Call to undefined method Admin_model::getpage_by_slug() in /home/geniuswo/public_html/absa/engageapp/application/controllers/Pages.php on line 43

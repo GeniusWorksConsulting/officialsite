@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPEC Grid View PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-15 14:47+0700\n"
+"PO-Revision-Date: 2017-06-15 14:48+0700\n"
+"Last-Translator: Nguyen Cong Tuan <mr.nguyencongtuan@gmail.com>\n"
+"Language-Team: a3rev\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/wpsc-gridview-admin.php:8 admin/wpsc-gridview-admin.php:103
+msgid ""
+"Connection Error! Could not reach the a3API on Amazon Cloud, the network may "
+"be busy. Please try again in a few minutes."
+msgstr ""
+
+#: admin/wpsc-gridview-admin.php:121
+#: classes/class-wpsc-gridview-upgrade.php:172
+msgid "Error: "
+msgstr ""
+
+#: admin/wpsc-gridview-admin.php:183
+msgid "No find the encryp.inc file. Please copy encryp.inc file to folder"
+msgstr ""
+
+#: admin/wpsc-gridview-admin.php:188
+msgid "encryp.inc was modified. Please keep it by default"
+msgstr ""
+
+#: admin/wpsc-gridview-admin.php:192
+msgid "Enter Your Plugin Authorization Key"
+msgstr ""
+
+#: admin/wpsc-gridview-admin.php:196
+#: classes/class-wpsc-gridview-upgrade.php:37
+msgid "Authorization Key"
+msgstr ""
+
+#: admin/wpsc-gridview-admin.php:199
+msgid "Validate"
+msgstr ""
+
+#: classes/class-wpsc-gridview-hook-filter.php:339
+#: classes/class-wpsc-gridview-hook-filter.php:341
+#: classes/class-wpsc-gridview-hook-filter.php:351
+#: classes/class-wpsc-gridview-hook-filter.php:353
+msgid "Buy"
+msgstr ""
+
+#: classes/class-wpsc-gridview-hook-filter.php:530
+#: classes/class-wpsc-gridview-upgrade.php:37
+msgid "WP e-Commerce Grid View - Authorization Key"
+msgstr ""
+
+#: classes/class-wpsc-gridview-hook-filter.php:541
+msgid "Documentation"
+msgstr ""
+
+#: classes/class-wpsc-gridview-hook-filter.php:542
+msgid "Support"
+msgstr ""
+
+#: classes/class-wpsc-gridview-upgrade.php:37
+msgid "Purchase one now"
+msgstr ""

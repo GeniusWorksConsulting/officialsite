@@ -1,0 +1,119 @@
+/*----------------------------------------------------
+ *
+ * Obit - A Visual Composer Extension Plugin
+ * by TrueThemes
+ *
+ * http://codecanyon.net/user/TrueThemes/portfolio
+ *
+ * provides extra styling for "live preview" of elements
+ * within the wordpress content editor
+ *
+ * @since Orbit 1.0
+ *
+*
+----------------------------------------------------*/
+.orbit-alert-box .wpb_vc_param_value.font_size,
+.orbit-alert-box .wpb_vc_param_value.closeable,
+.orbit-alert-box .wpb_vc_param_value.style,
+.orbit-alert-box h4.wpb_element_title,
+.orbit-button h4.wpb_element_title,
+.orbit-button .wpb_vc_param_value.style,
+.orbit-button .wpb_vc_param_value.color,
+.orbit-button .wpb_vc_param_value.size,
+.orbit-dropcap .wpb_vc_param_value.dropcap,
+.orbit-dropcap .wpb_vc_param_value.style,
+.orbit-dropcap .wpb_vc_param_value.color,
+.orbit-feature-list .wpb_vc_param_value.border_width,
+.orbit-feature-list .wpb_vc_param_value.content,
+.orbit-feature-list .wpb_vc_param_value.lightbox_content,
+.orbit-feature-list .wpb_vc_param_value.lightbox_description,
+.orbit-icon-box h4.wpb_element_title,
+.orbit-icon-box .wpb_vc_param_value.content,
+.orbit-icon-box .wpb_vc_param_value.box_bg_color,
+.orbit-icon-box .wpb_vc_param_value.icon_color,
+.orbit-icon-box .wpb_vc_param_value.icon_bg_color,
+.orbit-icon-box .wpb_vc_param_value.vc_link,
+.orbit-icon-box .wpb_vc_param_value.icon_size,
+.orbit-icon-png .wpb_vc_param_value.content,
+.orbit-icon-png h4.wpb_element_title,
+.orbit-icon-text .wpb_vc_param_value.content,
+.orbit-number-counter h4.wpb_element_title,
+.orbit-pricing-box .wpb_vc_param_value.price,
+.orbit-pricing-box .wpb_vc_param_value.currency,
+.orbit-pricing-box .wpb_vc_param_value.plan,
+.orbit-pricing-box .wpb_vc_param_value.term,
+.orbit-pricing-box .wpb_vc_param_value.content,
+.orbit-pricing-box .wpb_vc_param_value.button_label,
+.orbit-pricing-box .wpb_vc_param_value.button_color,
+.orbit-pricing-box .wpb_vc_param_value.button_size,
+.orbit-progress-bar h4.wpb_element_title,
+.orbit-service-list .wpb_vc_param_value.border_width,
+.orbit-service-list .wpb_vc_param_value.content,
+.orbit-service-list .wpb_vc_param_value.lightbox_content,
+.orbit-service-list .wpb_vc_param_value.lightbox_description,
+.orbit-social-icons .wpb_vc_param_value.design,
+.orbit-social-icons .wpb_vc_param_value.icon_style,
+.orbit-social-icons .wpb_vc_param_value.vc_link {
+  display: none;
+}
+.wpb_orbit_alert .vision-notification {
+  margin: 0;
+  width: 95%;
+}
+.wpb_orbit_alert .vision-notification p {
+  padding: 8px 16px 16px 42px;
+  background-position: 14px 40% !important;
+}
+.wpb_orbit_alert .vision-notification .closeable-x {
+  background: none;
+}
+.wpb_content_element.orbit-icon-text {
+  margin-left: 0px;
+}
+.wpb_content_element.orbit-icon-text .preview_element.orbit-icon-wrap {
+  margin-top: 20px;
+}
+.orbit-icon-png .wpb_vc_param_value.icon {
+  font-weight: bold;
+  padding-bottom:7px;
+}
+.preview_element h3.vision-counter {
+  font-size: 40px !important;
+}
+.preview_element.vision-social {
+  height: 70px;
+}
+.preview_element.vision-social a {
+  text-decoration: none;
+}
+.preview_element.vision-icon-box .fa-stack {
+  font-size: 35px;
+  height: 55px;
+}
+.preview_element.vision-icon-box h3 {
+  font-size: 18px !important;
+  margin-bottom: 15px !important;
+}
+.preview_element.vision-icon-box {
+  line-height: 1.8;
+}
+.orbit-icon-png a {
+  text-decoration: none;
+  color: #444;
+}
+.wpb-select.icon_size {
+  height: 38px;
+}
+.wpb-select.icon_size option {
+  font-size: 13px !important;
+}
+.wpb_vc_param_value.wpb-textarea_raw_html.textarea_raw_html {
+  height:60px;
+}
+.preview_element.vision-features,
+.preview_element.vision-services {
+  margin-top: 22px;
+}
+.preview_element.vision-features .fa {
+  margin-right:14px;
+}
